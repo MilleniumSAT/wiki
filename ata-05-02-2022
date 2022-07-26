@@ -1,0 +1,26 @@
+[TODO]
+
+1. Fazer a soldagem dos pinos nas placas de sensores externos (GPS, IMU)
+2. Prototipar utilizando um protoboard para desenvolvimento e teste
+3. Comprar protoboard, ponta de solda e material para a soldagem de componentes eletrônicos (base de solda, estanho, graxa para soldagem, cabos (telefónicos) para conexão dos circuitos). Cadastrar as compras na planilha de aquisições (por equipe).
+4. Ler os datasheets, saber a voltagem de entrada da placa e os protocolos de comunicação
+
+[Millenium]
+
+- Trabalha atualmente na integração de IMU externa e comunicação com ESP32. Pesquisar a integração via pino físico (RS232, SPI, I2C, etc.)
+
+[PachecosSAT]
+
+- Está trabalhando na integração da ESP-CAM. Já fez a comunicação via WiFi. Pendente de integrar via pinos físicos com protocolo de comunicação serial (RS232, SPI, I2C, etc.)
+
+[Sugestões]
+
+- Utilizar o paradigma e arquitetura de software do próprio CubeSAT como modelo. Ou seja, sabemos que o software utiliza uma implementação em RTOS (orientada a processos), em linguagem C++ (orientada a objetos). Assim, de preferência utilizar os recursos disponibilizados pelas bibliotecas do satélite (bibliotecas C/C++ padrão de comunicações, biblioteca da PION) para realizar a interface com os sensores (GPS, IMU, etc.). Caso se necessite implementar funções novas não existentes para o tratamento destes sensores, se inspirar no formato de implementação do sistema do satélite (criação de um objeto/classe em C/C++, etc.). Isto ajudará a uniformizar a integração, manutenção e inteligibilidade dos códigos.
+
+[Info]
+
+- Nos satélites as coordenadas de geolocalização são diferentes - quarterniões etc, não latitude e longitude
+
+ 
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eab9b215-315f-4f37-ac54-bba34db558fc/Untitled.png)
