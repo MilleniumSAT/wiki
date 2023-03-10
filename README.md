@@ -1,5 +1,5 @@
 <h1 align="center">
-    <a href="ufg.br"><img src="https://github.com/MilleniumSAT/wiki/blob/master/figures/milleniumlogo.png" alt="MILLENIUMSAT" width="30%"></a>
+    <a href="ufg.br"><img src="https://github.com/MilleniumSAT/wiki/blob/main/figures/milleniumlogo.png?raw=true" alt="MILLENIUMSAT" width="30%"></a>
     <br>
     MilleniumSAT (ST-OBSAT-01)
     <br>
