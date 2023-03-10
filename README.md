@@ -5,13 +5,13 @@
     <br>
 </h1>
 
-<h4 align="center">A compilation of the mission documents, diagrams, spreadsheets and figures.</h4>
+<h4 align="center">Repositório da documentação técnica e teórica da missão.</h4>
 
 <p align="center">
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
 	</a>
-    <a href="http://golds.ufsc.br/en/team/">
+    <a href="http://ufg.br/en/team/">
 		<img src="https://img.shields.io/badge/spacelab%20members-8-blue?style=for-the-badge">
 	</a>
 	<a href="#license">
@@ -46,11 +46,17 @@
 
 ## Overview
 
-GOLDS-UFSC is a space technology demonstration mission created by the Federal University of Santa Catarina. The main goal is to provide the service module for the Environmental Data Collector (EDC) payload from INPE-RN. The service module was developed at UFSC and it has three main components: the Electric Power System (EPS), the On-Board Data Handling (OBDH) and Telemetry, Tracking and Command (TT&C).
+A MilleniumSAT é uma missão desenvolvida com o propósito de estudo da Anomalia Magnética do Atlântico Sul.
 
-Besides performing the EDC main functionalities, the mission will contribute to validating key technologies that will enable faster and cheaper development of future satellites reusing the same core structure. As an educational mission, it also serves to train engineering students in space mission conception, design, implementation and operation in all areas involved. 
+A Anomalia Magnética do Atlântico Sul (AMAS) é uma área localizada na região do Oceano Atlântico, próxima à costa do Brasil e da África, onde ocorre uma redução significativa na intensidade do campo magnético terrestre em relação a outras regiões do planeta. Essa anomalia foi descoberta em 1958, durante a missão militar americana "Operation Argus", que tinha como objetivo monitorar explosões nucleares atmosféricas.
 
-It also acts as an experimenting platform for research in space technologies developed before, during, and after the operations phase of the mission, providing empirical data for experiments of many kinds. GOLDS-UFSC is expected to be launched by the end of 2020. Details of all systems developed for the mission are described in the documents listed in this repository in a top-level fashion and the detailed technical module documents in their respective repositories. This documentation structure is described in the <a href="#repository-organization">repository organization</a> section.
+A AMAS é um fenômeno que intriga cientistas de todo o mundo, já que não existe uma explicação clara para sua origem. Uma das teorias mais aceitas é que a anomalia é causada pela presença de um grande volume de material líquido na região, como o magma presente em vulcões submarinos. Outra possibilidade é que a AMAS seja uma consequência da dinâmica do núcleo terrestre, que é composto principalmente de ferro e níquel, e que gera o campo magnético do planeta.
+
+A importância da AMAS se deve ao fato de que ela interfere na navegação de aviões e navios, uma vez que o campo magnético é utilizado como referência para a orientação. Além disso, a anomalia tem sido estudada por cientistas que buscam entender melhor o funcionamento do campo magnético terrestre e sua relação com os processos geológicos e geofísicos.
+
+Recentemente, foi descoberto que a AMAS está se expandindo em direção à América do Sul, o que tem gerado preocupação entre os cientistas e autoridades. Acredita-se que essa expansão possa ter implicações em diversos aspectos, como a segurança das redes elétricas e de comunicações, além de impactar a navegação e a aviação na região.
+
+Dessa forma, essa proposta foi trabalhada durante a 1º Olimpíada Brasileira de Satélites, e será efetivamente lançada em um lançamento orbital em meados de dezembro de 2023*.
 
 <p align="center">
     <img width="65%" src="https://github.com/spacelab-ufsc/floripasat2-doc/blob/master/figures/floripasat-2.jpg" />
@@ -124,7 +130,7 @@ The following sections describe the mission subsystems, which placement, positio
 ## OBDH - On-Board Data Handling
 
 <p align="left">
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
 	</a>
 	<a href="https://github.com/spacelab-ufsc/obdh2/releases">
@@ -153,7 +159,7 @@ The SpaceLab OBDH2 (On-Board Data Handling 2.0) is one of the service modules de
 ## TTC - Telemetry, Tracking and Telecommand
 
 <p align="left">
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/status-in--orbit%20validated-blue?style=for-the-badge">
 	</a>
 	<a href="https://github.com/spacelab-ufsc/ttc2/releases">
@@ -182,7 +188,7 @@ The TTC (or TT&C) is the communication module of the CubeSats from SpaceLab. It 
 ## EPS - Electrical and Power System
 
 <p align="left">
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
 	</a>
 	<a href="https://github.com/spacelab-ufsc/eps2/releases">
@@ -211,7 +217,7 @@ The EPS2 has been designed to harvest, store and distribute energy for the GOLDS
 ## BATC4 - Battery Module 4 cells
 
 <p align="left">
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
 	</a>
 	<a href="https://github.com/spacelab-ufsc/battery-module-4c/releases">
@@ -236,7 +242,7 @@ The battery module is a separeted board from the EPS in order to accommodate 4 l
 ## Payload EDC - Environmental Data Collector Payload
 
 <p align="left">
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/status-under%20testing-yellow?style=for-the-badge">
 	</a>
 	<a href="">
@@ -253,7 +259,7 @@ The Environmental Data Collector (EDC) is a CubeSat-compatible payload that deco
 ## Payload X - Redundant OBDH
 
 <p align="left">
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
 	</a>
 	<a href="">
@@ -270,7 +276,7 @@ The Payload X was developed to perform an in-orbit validation (IOV) of two new t
 ## DaughterBoard HARSH - Radiation Monitor
 
 <p align="left">
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/status-under%20testing-yellow?style=for-the-badge">
 	</a>
 	<a href="">
@@ -291,7 +297,7 @@ The Harsh Environment CubeSat DaughterBoard is the result of a partnership betwe
 ## IIP - Interstage Interface Panels
 
 <p align="left">
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
 	</a>
 	<a href="https://github.com/spacelab-ufsc/interface-board/releases">
@@ -320,7 +326,7 @@ Interstage Interface Panels (IIP) are vertical mounted PCBs designed to give ext
 ## PC104-ADPT - PC-104 Adapter
 
 <p align="left">
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
 	</a>
 	<a href="https://github.com/spacelab-ufsc/pc104-adapter/releases">
@@ -345,7 +351,7 @@ The PC-104 Adapter is a set of two boards that allow the connection between two 
 ## ACS - Attitude Control System
 
 <p align="left">
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/status-in--orbit%20validated-blue?style=for-the-badge">
 	</a>
 </p>
@@ -359,10 +365,10 @@ Our Attitude Control System (ACS) is a passive attitude system, which uses Earth
 ## USIPED - 2U Mechanical Structure
 
 <p align="left">
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/status-under%20testing-yellow?style=for-the-badge">
 	</a>
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/purchased%20module-USIPED-lightgray?style=for-the-badge">
 	</a>
 </p>
@@ -376,10 +382,10 @@ The USIPED 2-Unit CubeSat structure is developed as a generic, modular satellite
 ## ISIS - Antennas
 
 <p align="left">
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/status-in--orbit%20validated-blue?style=for-the-badge">
 	</a>
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/purchased%20module-ISIS-lightgray?style=for-the-badge">
 	</a>
 </p>
@@ -393,10 +399,10 @@ The ISISPACE CubeSat Antenna System 1U/3U contains up to four tape spring antenn
 ## ORBITAL - Solar Panels
 
 <p align="left">
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/status-flight%20ready-green?style=for-the-badge">
 	</a>
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/purchased%20module-ORBITAL-lightgray?style=for-the-badge">
 	</a>
 </p>
@@ -414,7 +420,7 @@ The solar panels are manufactures by ORBITAL, a Brazilian company. The panels fe
 ## FlatSat - FlatSat Test Platform
 
 <p align="left">
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
 	</a>
 	<a href="https://github.com/spacelab-ufsc/flatsat-platform/releases">
@@ -436,28 +442,28 @@ The SpaceLab FlatSat Platform is a testbed for cubesat pcb modules. FlatSats ena
 
 <br><br>
 
-<a href="https://github.com/spacelab-ufsc/spacelab-decoder/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=spacelab-ufsc/spacelab-decoder" />
+<a href="https://github.com/MilleniumSAT/wiki-decoder/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MilleniumSAT/wiki-decoder" />
 </a>
 
 ## SpaceLab Packet Decoder
 
 <p align="left">
-	<a href="https://github.com/spacelab-ufsc/spacelab#versioning">
+	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
 	</a>
-	<a href="https://github.com/spacelab-ufsc/spacelab-decoder/releases">
-		<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/spacelab-ufsc/spacelab-decoder?style=for-the-badge">
+	<a href="https://github.com/MilleniumSAT/wiki-decoder/releases">
+		<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/MilleniumSAT/wiki-decoder?style=for-the-badge">
 	</a>
-	<a href="https://github.com/spacelab-ufsc/spacelab-decoder/commits/master">
-		<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/spacelab-ufsc/spacelab-decoder?style=for-the-badge">
+	<a href="https://github.com/MilleniumSAT/wiki-decoder/commits/master">
+		<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MilleniumSAT/wiki-decoder?style=for-the-badge">
 	</a>
-	<a href="https://github.com/spacelab-ufsc/spacelab-decoder/issues">
-		<img alt="GitHub issues" src="https://img.shields.io/github/issues/spacelab-ufsc/spacelab-decoder?style=for-the-badge">
+	<a href="https://github.com/MilleniumSAT/wiki-decoder/issues">
+		<img alt="GitHub issues" src="https://img.shields.io/github/issues/MilleniumSAT/wiki-decoder?style=for-the-badge">
 	</a>
 </p>
 
-<a href="https://github.com/spacelab-ufsc/spacelab-decoder">
+<a href="https://github.com/MilleniumSAT/wiki-decoder">
 <img align="right" width="25%" src="https://github.com/spacelab-ufsc/golds-ufsc-doc/blob/master/figures/spacelab-decoder.png">
 </a>
 
