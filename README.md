@@ -56,47 +56,37 @@ A importância da AMAS se deve ao fato de que ela interfere na navegação de av
 
 Recentemente, foi descoberto que a AMAS está se expandindo em direção à América do Sul, o que tem gerado preocupação entre os cientistas e autoridades. Acredita-se que essa expansão possa ter implicações em diversos aspectos, como a segurança das redes elétricas e de comunicações, além de impactar a navegação e a aviação na região.
 
-Dessa forma, essa proposta foi trabalhada durante a 1º Olimpíada Brasileira de Satélites, e será efetivamente lançada em um lançamento orbital em meados de dezembro de 2023*.
+Essa proposta foi trabalhada durante a 1º Olimpíada Brasileira de Satélites, e será efetivamente lançada em um lançamento orbital em meados de dezembro de 2023*.
 
 <p align="center">
-    <img width="65%" src="https://github.com/spacelab-ufsc/floripasat2-doc/blob/master/figures/floripasat-2.jpg" />
+    <img width="65%" src="https://github.com/MilleniumSAT/wiki/blob/main/figures/pcb-01.png?raw=true" />
 </p>
 
-## Mission Statement
+## Objetivo da missão
 
-GOLDS-UFSC is a service module for INPE’s EDC payload, and also a platform for the test of core spacecraft technologies in a microgravity, high-radiation and low Earth orbit environment.
+1. Coletar dados da magnetosfera a fim de ampliar os estudos em relação à Anomalia Magnética do Atlântico Sul.
+2. Validar a utilização de um algoritmo de localização e mapeamento do campo magnético chamado Magnetic SLAM.
+3. Validar a utilização do sensor magnético de baixo custo RM3100 para missões em cubesats 1U.
+4. Analisar a influência de interferências eletromagnéticas no uso do sensor.
+5. Enviar os dados adquridos através do subsistema de telemetria utilizando frequências radio-amadoras.
+6. Servir como inspiração para futuras missões originárias do Núcleo de Pesquisas Aeroespaciais da Universidade Federal de Goiás.
 
-## Mission Objectives
+## Requisitos da missão
 
-1. To serve as a host platform for the EDC payload.
-2. Validate the EDC payload in orbit.
-3. Validate EDC functionality in orbit.
-4. Validate core-satellite functions in orbit.
-5. Evaluate the behavior of the core modules.
-6. Perform experiments on radiation effects in electronic components in orbit.
-7. Serve as relay for amateur radio communications.
-
-## Mission Requeriments
-
-1. The power system shall be able to harvest solar energy.
-2. The power system shall be able to store energy for use when GOLDS-UFSC is eclipsed.
-3. The power system shall supply energy to all other modules.
-4. The data handling system shall communicate with the other modules and store their data.
-5. The communications system shall send a beacon signal periodically using VHF radio.
-6. The communications system shall send the CubeSat telemetry using UHF radio.
-7. The communications system shall be able to receive telecommands and respond to them accordingly.
-8. The attitude system shall be able to perform a 1-axis stabilization of the CubeSat.
-9. GOLDS-UFSC shall have the capability to receive and execute a shutdown telecommand, therefore ceasing all transmissions.
-10. The downlink transmissions shall be done once at a time, either telemetry or beacon.
-11. The ground station shall operate under the proper radio frequency communication licenses.
-12. GOLDS-UFSC shall comply with international and Brazilian radio license agreements and restrictions.
-13. The team shall build and operate a ground station for full communication with GOLDS-UFSC.
+1. Deverá haver disponibilidade de um barramento CAN e USART para comunicação do microcontrolador sampler com o OBC
+2. Necessidade de uma alimentação 3.3V e 5V
+3. Deverá haver um barramento através de conectores header (PC104)
+4. Deverá haver previsão de fornecimento de potencia para (580mW) em atividade
+5. Deverá haver disponibilidade um andar inteiro para o payload
+6. A comunicação entre o computador de bordo e payload deverá seguir o protocolo desenvolvido
+7. A órbita deverá estar entre 500~600km de altitude, preferenciamente
+8. A inclinação orbital deverá ser 35º e 60º
 
 ## Mission Schedule
 
 | Start [+months]  | Finish [+months] | Activity / Phase                                                                                          |
 |------------------|------------------|-----------------------------------------------------------------------------------------------------------|
-| T0               | T0 + 4           | Acquisition and manufacturing of critical elements and components for the solo platform                   |
+| T304             | T265             | Acquisition and manufacturing of critical elements and components for the solo platform                   |
 | T0               | T0 + 4           | Acquisition and manufacture of elements and components critical to the payload                            |
 | T0               | T0 + 9           | Acquisition and manufacturing of critical elements and components for the solo segment                    |
 | T0               | T0 + 6           | Compatibility tests between platform and payload in SpaceLab UFSC                                         |
