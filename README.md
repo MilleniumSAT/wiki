@@ -11,40 +11,21 @@
 	<a href="https://github.com/MilleniumSAT/wiki#versioning">
 		<img src="https://img.shields.io/badge/status-in%20development-red?style=for-the-badge">
 	</a>
-    <a href="http://ufg.br/en/team/">
+    <a href="">
 		<img src="https://img.shields.io/badge/spacelab%20members-8-blue?style=for-the-badge">
 	</a>
 	<a href="#license">
 		<img src="https://img.shields.io/badge/open--source-project-lightgray?style=for-the-badge">
 	</a>
-	<a href="http://www.inpe.br/crn/">
-		<img src="https://img.shields.io/badge/partner-inpe--rn-yellow?style=for-the-badge">
+	<a href="">
+		<img src="https://img.shields.io/badge/sourced%20by-UFG-orange?style=for-the-badge">
 	</a>
-	<a href="http://ufsc.br">
-		<img src="https://img.shields.io/badge/sourced%20by-UFSC-orange?style=for-the-badge">
+	<a href="">
+		<img src="https://img.shields.io/badge/sourced%20by-OBSAT-red?style=for-the-badge">
 	</a>
-	<a href="https://www.gov.br/aeb/pt-br">
-		<img src="https://img.shields.io/badge/sourced%20by-AEB-red?style=for-the-badge">
-	</a>
-    <a href="https://github.com/spacelab-ufsc/floripasat2-doc/actions">
-        <img src="https://img.shields.io/github/workflow/status/spacelab-ufsc/floripasat2-doc/Build%20LaTeX%20document?style=for-the-badge">
-    </a>
 </p>
 
-<p align="center">
-  	<a href="#overview">Overview</a> •
-  	<a href="#mission-statement">Statement</a> •
-  	<a href="#mission-objectives">Objectives</a> •
-  	<a href="#mission-requeriments">Requirements</a> •
-  	<a href="#mission-schedule">Schedule</a> •
-  	<a href="#development">Development</a> •
-  	<a href="#partners">Partners</a> •
-  	<a href="#licenses">Licenses</a> •
-  	<a href="#notes">Notes</a>
-</p>
-
-
-## Overview
+## Motivação
 
 A MilleniumSAT é uma missão desenvolvida com o propósito de estudo da Anomalia Magnética do Atlântico Sul.
 
