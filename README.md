@@ -110,6 +110,7 @@ As seções a seguir descrevem os subsistemas de missão.
 </a>
 
 O payload Millenium é um das duas cargas úteis da missão ST-OBSAT-01. Seu principal objetivo consiste em obter dados sensoriais de um magnetômetro de baixo custo para analisar o comportamento da Anomalia Magnética do Atlântico Sul e implementar o algoritmo Magnetic SLAM em seu processamento. Composto por um microcontrolador STM32L0 e contando com protocolos de comunicação SPI, I2C, CAN e USART, o payload também é capaz de armazenar seus dados adquiridos em uma memória EEPROM de 512kB.
+Além disso, a placa possui um sensor magnetômetro RM3100 e um sensor de temperatura TMP100.
 
 <br><br>
 
