@@ -1,7 +1,7 @@
 <h1 align="center">
-    <a href="spacelab.ufsc.br"><img src="https://github.com/spacelab-ufsc/golds-ufsc-doc/blob/master/figures/floripasat2-patch.png" alt="GOLDS-UFSC" width="30%"></a>
+    <a href="ufg.br"><img src="https://github.com/spacelab-ufsc/golds-ufsc-doc/blob/master/figures/milleniumlogo.png" alt="MILLENIUMSAT" width="30%"></a>
     <br>
-    GOLDS-UFSC MISSION
+    MilleniumSAT (ST-OBSAT-01)
     <br>
 </h1>
 
